@@ -18,6 +18,6 @@
     "devDependencies": {
         "sass": "^1.49.7",
         "vite": "^2.9.5",
-	"@prefresh/vite": "^2.2.8",
+	"@prefresh/vite": "^2.2.8"
     }
 }
