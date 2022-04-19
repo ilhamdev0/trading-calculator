@@ -1,15 +1,23 @@
 {
     "private": "true",
     "scripts": {
-        "build": "vite build --config vite.config.frontend.js",
-        "dev": "vite serve src/"
+        "build": "vite build --config vite.config.frontend.build.js",
+        "dev": "vite serve src/ --config vite.config.frontend.dev.js"
     },
     "engines": {
         "node": ">=12",
         "npm": ">=6"
     },
-    "dependencies": {},
+    "dependencies": {
+        "@preact/preset-vite": "^2.1.7",
+        "@prefresh/vite": "^2.2.8",
+        "currency.js": "^2.0.4",
+        "preact": "^10.7.1",
+        "rsuite": "^5.6.0",
+        "the-new-css-reset": "^1.5.1"
+    },
     "devDependencies": {
+        "sass": "^1.49.7",
         "vite": "^2.9.5"
     }
 }

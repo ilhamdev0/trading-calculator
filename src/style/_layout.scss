@@ -1,0 +1,28 @@
+@use 'breakpoint';
+
+.row{
+    display: flex;
+}
+
+.row-col{
+    flex-direction: column;
+}
+
+//Responsive
+@media screen and (max-width: breakpoint.$md){
+    .row-col-md{
+        flex-direction: column;
+    }
+}
+
+// Gap
+.row-gap-1{
+    gap: 1ch;
+}
+
+.row-gap-2{
+    gap: 2ch;
+}
+.row-gap-3{
+    gap: 4ch;
+}

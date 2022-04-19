@@ -1,0 +1,21 @@
+.label{
+    padding-bottom: 1ch;
+}
+
+.hasil{
+    font-size: 1.5rem;
+    
+    .rs-message-body{
+        color: white;
+    }
+}
+
+.hasil-up{
+    @extend .hasil;
+    background-color: hsl(150deg,80%,40%);
+}
+
+.hasil-down{
+    @extend .hasil;
+    background-color: hsl(0deg,80%,40%);
+}

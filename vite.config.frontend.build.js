@@ -1,7 +1,8 @@
 import path from "path";
+import preact from "@preact/preset-vite";
 
 export default {
-    logLevel: 'warn',
+    // logLevel: 'warn',
     root: path.resolve("./src/"),
     publicDir: path.resolve("./src/static/"),
     resolve: {
@@ -11,6 +12,7 @@ export default {
     },
     build: {
         emptyOutDir: true,
-        outDir: path.resolve("./web/"),
-    }
+        outDir: path.resolve("./web/")
+    },
+    plugins: [preact()]
 }
