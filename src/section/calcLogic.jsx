@@ -5,7 +5,7 @@ export const formatterMataUang = (nilai, jenis) => {
         return new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumSignificantDigits: 6 }).format(nilai)
     }
 
-    if (jenis === "USD") {
+    if (jenis === "$") {
         return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumSignificantDigits: 8 }).format(nilai)
     }
 }
