@@ -11,13 +11,13 @@
     "dependencies": {
         "@mantine/core": "^4.1.4",
         "@preact/preset-vite": "^2.1.7",
-        "@prefresh/vite": "^2.2.8",
         "currency.js": "^2.0.4",
         "preact": "^10.7.1",
         "the-new-css-reset": "^1.5.1"
     },
     "devDependencies": {
         "sass": "^1.49.7",
-        "vite": "^2.9.5"
+        "vite": "^2.9.5",
+	"@prefresh/vite": "^2.2.8",
     }
 }
